@@ -1,0 +1,14 @@
+
+p {
+	color:darkblue;
+}
+h1{color:orange;}
+
+.navbar-inverse {
+    background-color: skyblue;
+}
+body {background-color:skyblue;}
+
+.col-sm-4 > img {
+	width: 100%;
+}

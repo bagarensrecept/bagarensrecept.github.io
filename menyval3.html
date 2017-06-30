@@ -1,0 +1,159 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Min titel</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+        <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Startsida</a>
+                <ul class="nav navbar-nav">
+                    <!-- Listpunkterna här blir knappar för dina olika menyval i menyn -->
+                    <li><a href="menyval1.html">Choklad</a></li>
+                    <li><a href="menyval2.html">Bärmuffins</a></li>
+                    <li><a href="menyval3.html">Annat</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+    
+
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-4">
+              <h1>HALLONGROTTOR</h1>
+               <p> Ingredienser:
+
+                200 g smör,
+                
+                1 dl socker,
+
+                1 tsk bakpulver,
+
+                1tsk vaniljsocker,
+
+                4,5 dl mjöl och
+
+                hallonsylt</p>
+                <ol>
+
+                   Gör så här:
+
+                   <li> sätt ugnen på 175 grader </li>
+
+                   <li>  Bland smör och socker (gärna med en degmaskin/matberedare)</li>
+
+                   <li> Blanda mjöl,bakpulver och vaniljsocker i en annan bunke eller skål.</li>
+
+                   <li> Blanda  ner mjölblandningen.</li>
+
+                   <li> Forma degen till en korv.</li>
+
+                   <li> skär upp i 20 bitar.</li>
+
+                   <li>  lägg ner i bakformar.</li>
+
+                   <li> tryck en grop med din tumme. Ditt finger ska vara mjöligt.</li>
+
+                   <li>  lägg i sylt och grädda i ungnen i ca 18 minuter.</li>
+
+                </ol>
+               <img id="hallon" src="bilder/Hallongrottor.jpg">
+          </div>
+
+          <div class="col-sm-4">
+           <h1>DRÖMTÅRTA</h1>
+            <p>Ingredienser</p>
+            <p>Receptet gäller för 15 bitar</p>
+
+            <p> 3 ägg,
+            2 dl strösocker,
+            1½ dl potatismjöl,
+            ½ dl kakao,
+            1 tsk bakpulver</p>
+
+            <h1>Smörkräm:</h1>
+
+            <p>
+            150 g Arla® Svenskt Smör, rumsvarmt
+            Normalsaltat 82%,
+            2 dl florsocker,
+            2 tsk vaniljsocker
+            </p>
+                  
+            <p>  Gör så här:</p>
+            <ol>
+                <li>Sätt ugnen på 225º.</li> 
+                <li>Vispa ägg och socker pösigt. Sikta ner potatismjöl blandat med kakao och bakpulver.</li> 
+                <li>Häll smeten i en långpanna med bakplåtspapper, ca 30x40 cm.</li> 
+                <li>Grädda i mitten av ugnen 5-7 min.</li> 
+                <li>Stjälp upp kakan på ett sockrat bakplåtspapper. Ta bort pappret som kakan bakats på. Låt kallna.</li>
+                <li> Vispa smör, florsocker och vaniljsocker poröst.</li>
+                <li>Rör ner äggulan.</li>
+                <li>Bred krämen på kakan och rulla ihop. Förvara i kyl.</li>
+             </ol>
+                 <img id="hallon" src="bilder/drömrulltårta.jpg" id>
+
+          </div>
+
+          <div class="col-sm-4">
+            <h1>Ingredienser:</h1>
+                    
+                <p>3 äggvitor,
+                2 dl socker,
+                1/2 tsk citron
+                </p>
+
+
+                <p>gör så här:</p>
+
+                <ol>
+                    <li>Sätt ugnen på 125 grader.</li>
+                    <li> Blanda äggvitor, en tredjedel av sockret och citron i en bunke.</li>
+                    <li>Börja vispa blandningen på medelhastighet tills den börjar vitna.</li> 
+                    <li>Blanda ner resten av sockret, öka vispningen och fortsätt vispa till en fast och smidig maräng.</li>
+                    <li>Klicka upp marängen med en sked till önskad form på bakplåtspapper. Klicka inte ut marängerna för tätt för de sväller en aning.</li>
+                    <li>Grädda mitt i ugnen cirka 45-60 minuter beroende på storlek och om man vill ha torra eller sega maränger.</li>
+                </ol>
+                   <img id="hallon" src="bilder/maränger.jpg">
+            </div>
+
+        </div>
+      </div>
+
+    </main>
+</body>
+</html>
